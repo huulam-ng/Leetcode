@@ -2,12 +2,10 @@
 
 
 def twosum(nums, target):
-    for num1 in nums:
-        for i in nums:    
-            if num1 + i == target:
-                return [nums.index(num1), nums.index(i)]
-            
-
+   for i in range (len(nums)):
+            for j in range(i + 1, len(nums)):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
 
 
 
