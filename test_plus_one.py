@@ -3,8 +3,8 @@
 def plusone(digits):
         num_plus = digits[-1] + 1
         digits.remove(digits[-1])
-        ketqua = digits.append(num_plus)
-        return ketqua
+        digits.append(num_plus)
+        return digits
         
 print(plusone([1,2,3,4]))
 
