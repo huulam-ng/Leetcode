@@ -1,2 +1,3 @@
-print("helo helo")
-#he heh hehehe
+a = " a  b  vv  "
+print(a.split())
+print(a.split(" "))
