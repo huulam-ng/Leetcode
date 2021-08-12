@@ -15,5 +15,7 @@ class Solution:
         for i in nums:
             if self.dem_so_chu_so(i) % 2 == 0:
                 count += 1
-        return count        
+        return count      
+
+print(Solution().Find_Numbers_with_Even_Number_of_Digits([232,222,22,33,44]))  
 
