@@ -1,3 +1,4 @@
+
 def del_element(nums, val):
     for i in range(0,len(nums)):
         if nums[i] == val:
