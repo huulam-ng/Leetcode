@@ -5,4 +5,4 @@ class Solution:
         for i in range(0, len(num)):
             result += str(num[i])
         last_result = int(result) + int(k)
-        return list(''.join(str(last_result)))
+        return list(str(last_result))
